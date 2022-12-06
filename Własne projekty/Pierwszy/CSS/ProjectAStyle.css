@@ -6,6 +6,7 @@ body{
 background-image: url('https://media.istockphoto.com/id/104245138/photo/space-stars-and-nebula.jpg?b=1&s=170667a&w=0&k=20&c=iYP9Q7KN577ojbQO5-2esKjuHxNLTfs23pN7nA2XU9M=');
 color: aliceblue;
 margin: 50px;
+padding: 0;
 
 }
 header{
@@ -13,19 +14,23 @@ display: flex;
 justify-content: center;
 
 }
-aside{
-background-color:rgba(71, 61, 139, 0.13);
+aside{}
+
+.loading-div{
+    display: flex;
+    justify-content: center;
+height: 10px;
+width: 10px;
+background-color:rgba(71, 61, 139, 0.342);
 animation-duration: 10s;
-animation: aside;
+animation: in-loading;
+animation-iteration-count: 1;
 }
-@keyframes aside{
+@keyframes in-loading{
     0%{
         padding-left: 0%;
-    }50%{
-        padding-left: 50%;
     }
     100%{
-        background-color: aliceblue;
         padding-left: 100%;
     }
 }
@@ -39,21 +44,22 @@ nav{
 
 a:hover{
 font-weight: bolder;
+color: hotpink;
 
 }
 
-main{
+.space-color{
 
 }
 
+@keyframes space-color{
+
+}
 .intro{}
 
-.intro1{
-    color
-}
+.intro1{}
 
-.first{
-}
+.first{}
 
 .second{}
 
@@ -64,3 +70,5 @@ main{
 .leave{}
 
 .feedback{}
+
+.warning{}
