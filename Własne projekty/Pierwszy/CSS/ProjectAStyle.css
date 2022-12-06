@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+html{font-family: 'Zen Dots', cursive;}
+
+body{
+background-image: url('https://media.istockphoto.com/id/104245138/photo/space-stars-and-nebula.jpg?b=1&s=170667a&w=0&k=20&c=iYP9Q7KN577ojbQO5-2esKjuHxNLTfs23pN7nA2XU9M=');
+color: aliceblue;
+margin: 50px;
+
+}
+header{
+display: flex;
+justify-content: center;
+
+}
+aside{
+background-color:rgba(71, 61, 139, 0.13);
+animation-duration: 10s;
+animation: aside;
+}
+@keyframes aside{
+    0%{
+        padding-left: 0%;
+    }50%{
+        padding-left: 50%;
+    }
+    100%{
+        background-color: aliceblue;
+        padding-left: 100%;
+    }
+}
+
+nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+a:hover{
+font-weight: bolder;
+
+}
+
+main{
+
+}
+
+.intro{}
+
+.intro1{
+    color
+}
+
+.first{
+}
+
+.second{}
+
+.last{}
+
+.qr{}
+
+.leave{}
+
+.feedback{}
